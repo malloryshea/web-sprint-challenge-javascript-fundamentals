@@ -35,9 +35,9 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Explain the difference between a callback and a higher order function.
 
-A callback passes into other functions as arguements.
+A callback passes into other functions as an argument.
 
-A higher order function recieves other functions as arguements.
+A higher order function recieves other functions as arguments.
 
 3. Explain what a closure is.
 
@@ -47,7 +47,7 @@ Closure happens when the inner function reaches into the outer function to grab 
 
 The four principles of the 'this keyword' are as follows:
 
-Window/Global Object Binding: 'this' is the global object in non-strict mode, and undefined in strict mode. When in global, 'this' will be the window/console Object.
+Window/Global Object Binding:  When in global or non-strict mode, 'this' will be the window/console Object; when in strict mode 'this' is undefined.
 
 Implicit Binding: 'this' points to the object on which the function is called (what’s to the left of the dot when the function is called).
 
