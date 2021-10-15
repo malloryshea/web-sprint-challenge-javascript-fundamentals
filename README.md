@@ -26,13 +26,40 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
 
+.map method is used for converting data. It runs for each value in the array and returns each new value in the resulting array that is automatically created. An example of this would be taking a multiplying value and running it through the array instead of typing each function out individually.
+
+.reduce method is used to reduce an array to a single value. It requires 2 elements in order to function properly. These elements are the accumulator and the item. An example of reduce method is calculating the sum of an array, where the accumulative operation is the addition of items.
+
+.filter is best used when you have an array but only want the resulting array to return some of the elements from the original array. When .filter is used if the callback function returns true, the current element will be in the resulting array automatically. If it returns false, it won’t be.
+
+
 2. Explain the difference between a callback and a higher order function.
+
+A callback passes into other functions as arguements.
+
+A higher order function recieves other functions as arguements.
 
 3. Explain what a closure is.
 
+Closure happens when the inner function reaches into the outer function to grab the value that is defined in the outer function.
+
 4. Describe the four principles of the 'this' keyword.
 
+The four principles of the 'this keyword' are as follows:
+
+Window/Global Object Binding: 'this' is the global object in non-strict mode, and undefined in strict mode. When in global, 'this' will be the window/console Object.
+
+Implicit Binding: 'this' points to the object on which the function is called (what’s to the left of the dot when the function is called).
+
+Explicit Binding: We can explicitly tell the JavaScript engine to set 'this' to point to a certain value using .call, or .apply. 
+
+New Binding: Using the new keyword constructs a new object, and 'this' points it. Using a constructor function refering to the new object and returned by the constructor function.
+
+
 5. Why do we need super() in an extended class?
+
+Super is needed in an extended class in order to work with extends to do what .call and Object.create did. It is used to call the constructor of the parent class and to access the parent's properties and methods. 
+
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
