@@ -18,7 +18,7 @@ myFunction();
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
 
-The functions defined within another function won't be accessible outside the function unless they have been attached to an object that is accessible outside the function. In this case this closure allows the nestedFuction to reach outside to complete the task. Or in other words, the child is allowed to access the parent.
+// The functions defined within another function won't be accessible outside the function unless they have been attached to an object that is accessible outside the function. In this case this closure allows the nestedFuction to reach outside to complete the task. Or in other words, the child is allowed to access the parent.
 
 
 /* 🚀🚀🚀 Task 2: Counter 🚀🚀🚀 */
